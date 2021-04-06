@@ -1,3 +1,4 @@
+#Program to read and write into a csv file
 import csv
 def readcsv(filename):
     with open(filename) as file:
@@ -18,4 +19,3 @@ data = [
 filename = 'student.csv'
 writecsv(filename, data)
 readcsv(filename)
-        
