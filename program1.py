@@ -1,3 +1,4 @@
+#Program to read a file and print out each line seaprated by a #
 FILENAME = 'sample.txt'
 
 with open(FILENAME) as file:
