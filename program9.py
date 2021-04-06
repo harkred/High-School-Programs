@@ -1,3 +1,4 @@
+#File copying program
 def copy_files(original_file, copy_file):
     with open(original_file) as file1:
         lst = [i for i in file1.readlines()]
