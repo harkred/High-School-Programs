@@ -1,3 +1,4 @@
+#To convert binary no to decimal no
 def binary_to_decimal(num):
     num = num[::-1]
     decimal = 0
@@ -8,6 +9,7 @@ def binary_to_decimal(num):
         decimal += adduct
     return decimal
 
-num = '101'
-print(binary_to_decimal(num))
-
+#__main__
+if __name__ == '__main__':
+    num = '101'
+    print(binary_to_decimal(num))
