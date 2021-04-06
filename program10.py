@@ -1,3 +1,4 @@
+#Program to print frequency of a particular word in a file
 def count_file(filename, word):
     count = 0
     with open(filename) as file:
@@ -8,8 +9,9 @@ def count_file(filename, word):
                     count += 1
     return 'File {} has {} word {}'.format(filename, str(count), word)
 
+#__main__
+if __name__ == '__main__':
+    filename = 'sample.txt'
+    word = 'has'
 
-filename = 'sample.txt'
-word = 'has'
-
-print(count_file(filename, word))
+    print(count_file(filename, word))
