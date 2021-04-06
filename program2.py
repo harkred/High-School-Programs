@@ -1,3 +1,4 @@
+#Program to read from a file and give no. of vowels, consonants with uppercase and lowercase
 FILENAME = 'sample.txt'
 
 vowels = ['a', 'e', 'i', 'o', 'u']
