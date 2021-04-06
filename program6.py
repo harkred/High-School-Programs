@@ -1,3 +1,4 @@
+#Dice generator
 import random as rd
 
 dice = rd.randint(1,6)
