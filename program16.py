@@ -1,3 +1,4 @@
+#stack
 def is_empty(lst):
     if len(lst) == 0: return 1
     else: return 0
